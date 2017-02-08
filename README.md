@@ -1,5 +1,10 @@
 # HelloWorld
 
+This is the sample project that goes with the 'DevExtreme + Angular: Getting Started' webinar.
+
+- [Blog post](https://community.devexpress.com/blogs/aspnet/archive/2017/02/08/getting-started-with-angular-2-devextreme.aspx)
+- [YouTube Video](https://www.youtube.com/watch?v=71yR7YUh4ug)  
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
 
 ## Development server
