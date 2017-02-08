@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import notify from 'devextreme/ui/notify';
-import {Service, Company} from './app.service';
+import { Service, Company } from './app.service';
 
 @Component({
   selector: 'app-root',
@@ -16,9 +16,9 @@ export class AppComponent {
     this.dataSource = service.getCompanies();
   }
 
-  sayHello(params){
+  sayHello(params) {
     if (params.validationGroup.validate().isValid) {
-      notify('Hello ' + this.name + ' !', "info", 2000 );
+      notify('Hello ' + this.name + ' !', "info", 2000);
     }
   }
 }
